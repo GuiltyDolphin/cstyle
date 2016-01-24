@@ -4,7 +4,8 @@ require './lib/cstyle'
 
 Gem::Specification.new do |s|
   s.name        = 'cstyle'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
+  s.executables << 'cstyle'
   s.summary     = 'Maintain consistent code style throughout your projects'
   s.description = 'Maintain consistent code style throughout your projects.'
   s.homepage    = 'https://github.com/GuiltyDolphin/cstyle'
