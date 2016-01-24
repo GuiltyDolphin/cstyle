@@ -12,4 +12,7 @@ Gem::Specification.new do |s|
   s.authors     = ['Ben Moon']
   s.files       = ['lib/cstyle.rb']
   s.license     = 'GPL-3.0'
+
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'coveralls'
 end
