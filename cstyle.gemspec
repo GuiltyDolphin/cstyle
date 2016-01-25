@@ -1,16 +1,16 @@
 # encoding: utf-8
 
-require './lib/cstyle'
+require File.expand_path('../lib/cstyle/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'cstyle'
-  s.version     = '0.0.1'
+  s.version     = CStyle::VERSION
   s.summary     = 'Maintain consistent code style throughout your projects'
   s.description = 'Maintain consistent code style throughout your projects.'
   s.homepage    = 'https://github.com/GuiltyDolphin/cstyle'
   s.email       = 'guiltydolphin@gmail.com'
   s.authors     = ['Ben Moon']
-  s.files       = ['lib/cstyle.rb']
+  s.files       = Dir['lib/**/*']
   s.license     = 'GPL-3.0'
 
   s.add_development_dependency 'rake'
